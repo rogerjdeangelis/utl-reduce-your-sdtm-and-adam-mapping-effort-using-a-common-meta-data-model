@@ -1083,7 +1083,7 @@ Reduce your sdtm and adam mapping effort using a common meta data model
 
     %odsoff;
 
-    %do_over(_tbl,phrase=%str(
+    %do_over(_justbl,phrase=%str(
 
          *ods select nlevels;
          ods output nlevels=?all;
